@@ -1,5 +1,5 @@
 # Disclaimer
-Der folgende Text wurde mit Hilfe von KI zusammengefasst.
+Der folgende Text wurde basierend auf meinen Antworten mit Hilfe von KI zusammengefasst.
 
 # Software Engineering I - Übungsblatt 1 (WS 2025/2026)
 
