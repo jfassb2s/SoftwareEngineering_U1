@@ -21,3 +21,21 @@ public interface Translator {
     double version = 1.0;
     String translateNumber(int number);
 }
+
+### Blackbox-Test Fragen
+
+**Vorteil einer separaten Test-Klasse:**  
+- Trennung von Produktions- und Testcode  
+- Bessere Wartbarkeit und Übersicht  
+- Testcode wird nicht mit der Produktivsoftware ausgeliefert  
+- Ermöglicht automatisierte Testläufe (z. B. CI/CD)
+
+**Sinn von Äquivalenzklassen bei Blackbox-Tests:**  
+- Eingaben werden in Klassen mit gleichem Verhalten eingeteilt  
+- Reduziert die Anzahl der Testfälle, ohne Testqualität zu verlieren  
+- Ein Repräsentant pro Klasse reicht aus, um das Verhalten zu prüfen
+
+**Warum Blackbox-Test auf `Client` nicht direkt möglich:**  
+- `Client.display()` gibt nur auf die Konsole aus (`System.out.println`)  
+- Kein Rückgabewert oder messbarer Effekt über Schnittstelle  
+- JUnit kann Standard-Ausgabe nur über Umleitung testen, daher nicht direkt prüfbar
