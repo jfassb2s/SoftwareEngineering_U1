@@ -43,4 +43,4 @@ public interface Translator {
 
 ## Aufgabe 2: UML Klassendiagramm
 
-![UML Diagram](./uml-diagram.png)
+![UML Diagram](./UML.png)
