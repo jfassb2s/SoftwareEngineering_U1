@@ -40,3 +40,7 @@ public interface Translator {
 - `Client.display()` gibt nur auf die Konsole aus (`System.out.println`)  
 - Kein Rückgabewert oder messbarer Effekt über Schnittstelle  
 - JUnit kann Standard-Ausgabe nur über Umleitung testen, daher nicht direkt prüfbar
+
+## Aufgabe 2: UML Klassendiagramm
+
+![UML Diagram](./uml-diagram.png)
